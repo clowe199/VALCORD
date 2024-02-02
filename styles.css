@@ -1,0 +1,18 @@
+/* Basic styling - you can expand this */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.quiz {
+    margin: 20px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.disabled, button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
