@@ -1,15 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valorant Agent Quiz</title>
-    <link rel="stylesheet" href="./styles.css">
-  </head>
+    <style>
+        .hidden {
+            display: none;
+        }
 
-  <body>
-    <div class="container" id="quiz"></div>
+        .question button:not(:disabled) {
+            cursor: pointer;
+        }
 
+        .question button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
     <script src="script.js" defer></script>
-  </body>
+</head>
+
+<body>
+    <h1>Valorant Agent Quiz</h1>
+    <select id="agentSelector">
+        <option value="">Select an Agent</option>
+        <option value="Brimstone">Brimstone</option>
+        <option value="Phoenix">Phoenix</option>
+        <option value="Sage">Sage</option>
+        <option value="Sova">Sova</option>
+        <option value="Viper">Viper</option>
+        <option value="Cypher">Cypher</option>
+        <option value="Reyna">Reyna</option>
+        <option value="Killjoy">Killjoy</option>
+        <option value="Breach">Breach</option>
+        <option value="Omen">Omen</option>
+        <option value="Jett">Jett</option>
+        <option value="Raze">Raze</option>
+        <option value="Skye">Skye</option>
+        <option value="Yoru">Yoru</option>
+        <option value="Astra">Astra</option>
+        <option value="KAY/O">KAY/O</option>
+        <option value="Chamber">Chamber</option>
+        <option value="Neon">Neon</option>
+        <option value="Fade">Fade</option>
+        <option value="Harbor">Harbor</option>
+        <option value="Gekko">Gekko</option>
+        <option value="Deadlock">Deadlock</option>
+        <option value="Iso">Iso</option>
+    </select>
+
+    <div id="brimstoneQuiz" class="quiz hidden">
+        <!-- Brimstone Questions -->
+        <div id="brimstoneQ1" class="question hidden">
+            <p>Where is Brimstone from?</p>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 1, 'America')">America</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 1, 'Australia')">Australia</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 1, 'Canada')">Canada</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 1, 'Germany')">Germany</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 1, 'Russia')">Russia</button>
+            <button id="brimstoneNext1" onclick="nextQuestion('brimstone', 1)" class="hidden">Next</button>
+        </div>
+
+        <!-- Question 2 -->
+        <div id="brimstoneQ2" class="question hidden">
+            <p>Is this one of Brimstone’s voice lines? “Drink some water, reload your mags, and let’s get back out
+                there.”</p>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 2, 'True')">True</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 2, 'False')">False</button>
+            <button id="brimstoneNext2" onclick="nextQuestion('brimstone', 2)" class="hidden">Next</button>
+        </div>
+
+        <!-- Question 3 -->
+        <div id="brimstoneQ3" class="question hidden">
+            <p>What role does Brimstone play?</p>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 3, 'Controller')">Controller</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 3, 'Initiator')">Initiator</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 3, 'Sentinel')">Sentinel</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 3, 'Duelist')">Duelist</button>
+            <button id="brimstoneNext3" onclick="nextQuestion('brimstone', 3)" class="hidden">Next</button>
+        </div>
+
+        <!-- Question 4 -->
+        <div id="brimstoneQ4" class="question hidden">
+            <p>In the lore, who joined the VALORANT Protocol first alongside Brimstone?</p>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 4, 'KAY/O')">KAY/O</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 4, 'Astra')">Astra</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 4, 'Viper')">Viper</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 4, 'Raze')">Raze</button>
+            <button id="brimstoneNext4" onclick="nextQuestion('brimstone', 4)" class="hidden">Next</button>
+        </div>
+
+        <!-- Question 5 -->
+        <div id="brimstoneQ5" class="question hidden">
+            <p>Which is Brimstone’s ability?</p>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 5, 'Owl Drone')">Owl Drone</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 5, 'Kill Contract')">Kill Contract</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 5, 'Annihilation')">Annihilation</button>
+            <button class="answer-btn" onclick="checkAnswer('brimstone', 5, 'Incendiary')">Incendiary</button>
+            <button id="brimstoneNext5" onclick="nextQuestion('brimstone', 5)" class="hidden">Next</button>
+        </div>
+    </div>
+
+    <div id="phoenixQuiz" class="quiz hidden">
+        <!-- Phoenix Questions -->
+        <div id="phoenixQ1" class="question hidden">
+            <p>Where is Phoenix from?</p>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'United Kingdom')">United Kingdom</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'Poland')">Poland</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'New Zealand')">New Zealand</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'America')">America</button>
+            <button id="phoenixNext1" onclick="nextQuestion('phoenix', 1)" class="hidden">Next</button>
+        </div>
+        <!-- Phoenix Questions -->
+        <div id="phoenixQ2" class="question hidden">
+            <p>Where is Phoenix from?</p>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'United Kingdom')">United Kingdom</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'Poland')">Poland</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'New Zealand')">New Zealand</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'America')">America</button>
+            <button id="phoenixNext2" onclick="nextQuestion('phoenix', 1)" class="hidden">Next</button>
+        </div>
+        <!-- Phoenix Questions -->
+        <div id="phoenixQ3" class="question hidden">
+            <p>Where is Phoenix from?</p>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'United Kingdom')">United Kingdom</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'Poland')">Poland</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'New Zealand')">New Zealand</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'America')">America</button>
+            <button id="phoenixNext3" onclick="nextQuestion('phoenix', 1)" class="hidden">Next</button>
+        </div>
+        <!-- Phoenix Questions -->
+        <div id="phoenixQ4" class="question hidden">
+            <p>Where is Phoenix from?</p>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'United Kingdom')">United Kingdom</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'Poland')">Poland</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'New Zealand')">New Zealand</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'America')">America</button>
+            <button id="phoenixNext4" onclick="nextQuestion('phoenix', 1)" class="hidden">Next</button>
+        </div>
+        <!-- Phoenix Questions -->
+        <div id="phoenixQ5" class="question hidden">
+            <p>Where is Phoenix from?</p>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'United Kingdom')">United Kingdom</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'Poland')">Poland</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'New Zealand')">New Zealand</button>
+            <button class="answer-btn" onclick="checkAnswer('phoenix', 1, 'America')">America</button>
+            <button id="phoenixNext5" onclick="nextQuestion('phoenix', 1)" class="hidden">Next</button>
+        </div>
+
+    </div>
+
+    <div id="scoreDisplay" class="hidden"></div>
+    <button id="restart" onclick="restartQuiz()" class="hidden">Restart Quiz</button>
+</body>
+
 </html>
