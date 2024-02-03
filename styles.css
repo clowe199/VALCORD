@@ -1,17 +1,18 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+/* Basic styling - you can expand this */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-.container {
-    position: absolute;
-    top: 5%;
-    left: 3%;
+.quiz {
+    margin: 20px;
 }
 
-#next {
-    margin-top: 5%;
-    width: 5rem;
-    height: 2rem;
+.question {
+    margin-bottom: 10px;
+}
+
+.disabled, button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
