@@ -27,7 +27,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Brimstone’s ability?",
+    question: "Which is Brimstone's ability?",
     options: ["Owl Drone", "Kill Contract", "Annihilation", "Incendiary"],
     correctAnswer: "Incendiary",
     points: getRandomPoints(),
@@ -43,7 +43,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Phoenix’s voice lines? “Ooh, that’s going on a highlight reel for sure!”",
+      "Is this one of Phoenix's voice lines? “Ooh, that's going on a highlight reel for sure!”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -61,8 +61,8 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Phoenix’s ability?",
-    options: ["Hot Hands", "Hunter’s Fury", "Trapwire", "Reckoning"],
+    question: "Which is Phoenix's ability?",
+    options: ["Hot Hands", "Hunter's Fury", "Trapwire", "Reckoning"],
     correctAnswer: "Hot Hands",
     points: getRandomPoints(),
   },
@@ -77,7 +77,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Sage’s voice lines?\n\n“I wasn’t strong enough before. But now, now I am strong enough for us all”",
+      "Is this one of Sage's voice lines?\n\n“I wasn't strong enough before. But now, now I am strong enough for us all”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -95,7 +95,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Sage’s ability?",
+    question: "Which is Sage's ability?",
     options: ["Showstopper", "Resurrection", "Regrowth", "Dismiss"],
     correctAnswer: "Resurrection",
     points: getRandomPoints(),
@@ -111,7 +111,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Sova’s voice lines?\n\n“I believe in all of you, like I believe in myself.”",
+      "Is this one of Sova's voice lines?\n\n“I believe in all of you, like I believe in myself.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -129,7 +129,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Sova’s ability?",
+    question: "Which is Sova's ability?",
     options: ["Seekers", "Wingman", "Owl Drone", "Prowler"],
     correctAnswer: "Owl Drone",
     points: getRandomPoints(),
@@ -145,7 +145,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Viper’s voice lines?\n\n“If any of you die, I lose a bet with Brimstone, so don’t embarrass me like that, please.”",
+      "Is this one of Viper's voice lines?\n\n“If any of you die, I lose a bet with Brimstone, so don't embarrass me like that, please.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -163,7 +163,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Viper’s ability?",
+    question: "Which is Viper's ability?",
     options: ["Snake Bite", "Recon Bolt", "Leer", "Curveball"],
     correctAnswer: "Snake Bite",
     points: getRandomPoints(),
@@ -179,7 +179,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Cypher’s voice lines?\n\n“What has Kingdom done to this town?! However pretty their lies are, they’re just sucking my city dry!”",
+      "Is this one of Cypher's voice lines?\n\n“What has Kingdom done to this town?! However pretty their lies are, they’re just sucking my city dry!”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -191,13 +191,13 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "What is Cypher’s biggest fear?",
+    question: "What is Cypher's biggest fear?",
     options: ["Bugs", "Being watched", "Viper", "The dark"],
     correctAnswer: "Being watched",
     points: getRandomPoints(),
   },
   {
-    question: "Which is Cypher’s ability?",
+    question: "Which is Cypher's ability?",
     options: ["Dismiss", "Showstopper", "Fakeout", "Neural Theft"],
     correctAnswer: "Neural Theft",
     points: getRandomPoints(),
@@ -213,7 +213,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Reyna’s voice lines?\n\n“I have lied, beaten, killed to survive. I will kill again and again if it means one more day.”",
+      "Is this one of Reyna's voice lines?\n\n“I have lied, beaten, killed to survive. I will kill again and again if it means one more day.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -231,7 +231,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Reyna’s ability?",
+    question: "Which is Reyna's ability?",
     options: ["Paranoia", "Empress", "Blaze", "Trailblazer"],
     correctAnswer: "Empress",
     points: getRandomPoints(),
@@ -247,7 +247,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Killjoy’s voice lines?\n\n“Don’t worry team. If you die, I have your memories backed up at base! Heh, just kidding, just kidding. Or am I?”",
+      "Is this one of Killjoy's voice lines?\n\n“Don't worry team. If you die, I have your memories backed up at base! Heh, just kidding, just kidding. Or am I?”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -265,7 +265,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Killjoy’s ability?",
+    question: "Which is Killjoy's ability?",
     options: ["Nanoswarm", "Blade Storm", "Undercut", "Overdrive"],
     correctAnswer: "Nanoswarm",
     points: getRandomPoints(),
@@ -281,7 +281,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Breach’s voice lines?\n\n“Just swapping in new fusion cells. Okay, my arms are good! We can go.”",
+      "Is this one of Breach's voice lines?\n\n“Just swapping in new fusion cells. Okay, my arms are good! We can go.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -299,7 +299,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Breach’s ability?",
+    question: "Which is Breach's ability?",
     options: ["Wingman", "Rolling Thunder", "Cove", "Contingency"],
     correctAnswer: "Rolling Thunder",
     points: getRandomPoints(),
@@ -315,7 +315,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Omen’s voice lines?\n\n“They fear death, they should fear so much more than that.”",
+      "Is this one of Omen's voice lines?\n\n“They fear death, they should fear so much more than that.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -333,7 +333,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Omen’s ability?",
+    question: "Which is Omen's ability?",
     options: ["Mosh Pit", "Double Tap", "Dark Cover", "Cloudburst"],
     correctAnswer: "Dark Cover",
     points: getRandomPoints(),
@@ -349,7 +349,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Jett’s voice lines?\n\n“Ha! You should’ve seen your faces!”",
+      "Is this one of Jett's voice lines?\n\n“Ha! You should've seen your faces!”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -367,7 +367,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Jett’s ability?",
+    question: "Which is Jett's ability?",
     options: ["Updraft", "Sonic Sensor", "Trapwire", "Barrier Mesh"],
     correctAnswer: "Updraft",
     points: getRandomPoints(),
@@ -383,7 +383,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Raze’s voice lines?\n\n“You can take the girl out of Salvador, but you’ll never take the girl out of Salvador. Wait…”",
+      "Is this one of Raze's voice lines?\n\n“You can take the girl out of Salvador, but you'll never take the girl out of Salvador. Wait…”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -401,7 +401,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Raze’s ability?",
+    question: "Which is Raze's ability?",
     options: ["Cyber Cage", "Boom Bot", "Haunt", "Cloudburst"],
     correctAnswer: "Boom Bot",
     points: getRandomPoints(),
@@ -417,7 +417,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Skye’s voice lines?\n\n“If you see one of my creatures, it’s a good thing, alright? You’ll figure out what they do eventually.”",
+      "Is this one of Skye's voice lines?\n\n“If you see one of my creatures, it's a good thing, alright? You'll figure out what they do eventually.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -435,7 +435,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Skye’s ability?",
+    question: "Which is Skye's ability?",
     options: ["Spy Cam", "Prowler", "Seekers", "Fault Lines"],
     correctAnswer: "Seekers",
     points: getRandomPoints(),
@@ -451,7 +451,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Yoru’s voice lines?\n\n“Pick something nice to kill them with. It’s the least we can do.”",
+      "Is this one of Yoru's voice lines?\n\n“Pick something nice to kill them with. It's the least we can do.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -469,7 +469,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Yoru’s ability?",
+    question: "Which is Yoru's ability?",
     options: ["Headhunter", "Incendiary", "Undercut", "Gatecrash"],
     correctAnswer: "Gatecrash",
     points: getRandomPoints(),
@@ -485,7 +485,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Astra’s voice lines?\n\n“Take a breath now. Release the tension. Good? Let’s go!”",
+      "Is this one of Astra's voice lines?\n\n“Take a breath now. Release the tension. Good? Let's go!”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -503,7 +503,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Astra’s ability?",
+    question: "Which is Astra's ability?",
     options: ["Dark Cover", "Showstopper", "Devour", "Nebula"],
     correctAnswer: "Nebula",
     points: getRandomPoints(),
@@ -519,7 +519,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of KAY/O’s voice lines?\n\n“I’ll survive a dent or two, can’t say the same for you fragile humans.”",
+      "Is this one of KAY/O's voice lines?\n\n“I'll survive a dent or two, can't say the same for you fragile humans.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -538,7 +538,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is KAY/O’s ability?",
+    question: "Which is KAY/O's ability?",
     options: ["Aftershock", "Rendezvous", "Boom Bot", "Null/Cmd"],
     correctAnswer: "Null/Cmd",
     points: getRandomPoints(),
@@ -554,7 +554,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Chamber’s voice lines?\n\n“Please do not mistake my smile. I take this all very seriously.”",
+      "Is this one of Chamber's voice lines?\n\n“Please do not mistake my smile. I take this all very seriously.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -573,7 +573,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Chamber’s ability?",
+    question: "Which is Chamber's ability?",
     options: ["Rendezvous", "Stim Beacon", "Fast Lane", "Curveball"],
     correctAnswer: "Rendezvous",
     points: getRandomPoints(),
@@ -589,7 +589,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Neon’s voice lines?\n\n“Please stay alive, I hate making new friends.”",
+      "Is this one of Neon's voice lines?\n\n“Please stay alive, I hate making new friends.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -607,7 +607,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Neon’s ability?",
+    question: "Which is Neon's ability?",
     options: ["Overdrive", "Leer", "Blaze", "Regrowth"],
     correctAnswer: "Overdrive",
     points: getRandomPoints(),
@@ -623,7 +623,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Fade’s voice lines?\n\n“I paid a heavy price to commune with Nightmare. Don’t waste it.”",
+      "Is this one of Fade's voice lines?\n\n“I paid a heavy price to commune with Nightmare. Don't waste it.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -641,7 +641,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Fade’s ability?",
+    question: "Which is Fade's ability?",
     options: ["Dimensional Drift", "Turret", "Seize", "Tailwind"],
     correctAnswer: "Seize",
     points: getRandomPoints(),
@@ -657,7 +657,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Harbor’s voice lines?\n\n“How’s everyone feeling? Good? Because you look great.”",
+      "Is this one of Harbor's voice lines?\n\n“How's everyone feeling? Good? Because you look great.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -675,7 +675,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Harbor’s ability?",
+    question: "Which is Harbor's ability?",
     options: ["Nova Pulse", "Reckoning", "Sky Smoke", "Thrash"],
     correctAnswer: "Reckoning",
     points: getRandomPoints(),
@@ -691,7 +691,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Gekko’s voice lines?\n\n“Ayy, how are my buddies? No, not y’all, I’m talking about these little guys, but…yeah, what’s up?”",
+      "Is this one of Gekko's voice lines?\n\n“Ayy, how are my buddies? No, not y'all, I'm talking about these little guys, but…yeah, what’s up?”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -709,7 +709,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Gekko’s ability?",
+    question: "Which is Gekko's ability?",
     options: ["Double Tap", "Dizzy", "Lockdown", "Overdrive"],
     correctAnswer: "Dizzy",
     points: getRandomPoints(),
@@ -725,7 +725,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Deadlock’s voice lines?\n\n“The greatest battles ever fought are written in storybooks. May they write about this one.”",
+      "Is this one of Deadlock's voice lines?\n\n“The greatest battles ever fought are written in storybooks. May they write about this one.”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -743,7 +743,7 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "Which is Deadlock’s ability?",
+    question: "Which is Deadlock's ability?",
     options: ["Annihilation", "Dissipate", "Fakeout", "Overdrive"],
     correctAnswer: "Annihilation",
     points: getRandomPoints(),
@@ -759,7 +759,7 @@ const quizData = [
   },
   {
     question:
-      "Is this one of Iso’s voice lines?\n\n“I didn’t bring a snack. Did anyone bring a snack?”",
+      "Is this one of Iso's voice lines?\n\n“I didn't bring a snack. Did anyone bring a snack?”",
     options: ["True", "False"],
     correctAnswer: "True",
     points: getRandomPoints(),
@@ -771,13 +771,13 @@ const quizData = [
     points: getRandomPoints(),
   },
   {
-    question: "What was Iso’s original job?",
+    question: "What was Iso's original job?",
     options: ["Tax collector", "Arms dealer", "Hitman", "Retail employee"],
     correctAnswer: "Hitman",
     points: getRandomPoints(),
   },
   {
-    question: "Which is Iso’s ability?",
+    question: "Which is Iso's ability?",
     options: ["Headhunter", "Undercut", "Blindside", "Aftershock"],
     correctAnswer: "Undercut",
     points: getRandomPoints(),
@@ -786,10 +786,44 @@ const quizData = [
 
 let currentPage = 0;
 let totalScore = 0;
+let currentAgent = -1;
+
+// Function to render the dropdown for agent selection
+function renderAgentSelection() {
+  const setSelectionContainer = document.getElementById("agent-select");
+  setSelectionContainer.innerHTML = `
+    <label for="agent-select">Select an agent:</label>
+    <select id="agent-select" onchange="selectAgent()">
+      <option value="-1">Select an agent</option>
+      ${quizData
+        .map((set, index) => `<options value="${index}">${set.agent}</options>`)
+        .join("")}
+    </select>
+  `;
+}
+
+// Function to select a question set
+function selectAgent() {
+  const agentSelect = document.getElementById("agent-select");
+  currentAgent = parseInt(agentSelect.value);
+  if (currentAgent !== -1) {
+    renderQuizPage();
+  }
+}
 
 // Function to generate random points
 function getRandomPoints() {
   return Math.floor(Math.random() * 10) + 1;
+}
+
+// Override getRandomPoints to generate points based on current set
+const originalGetRandomPoints = getRandomPoints;
+getRandomPoints = function () {
+  if (currentAgent === -1) {
+    return 0; // No points for the default case
+  } else {
+    return originalGetRandomPoints();
+  }
 }
 
 // Function to render the current quiz page
@@ -821,6 +855,16 @@ function renderQuizPage() {
   }
 }
 
+// // Override renderQuizPage to render questions from the selected agent
+// const originalRenderQuizPage = renderQuizPage;
+// renderQuizPage = function () {
+//   if (currentAgent === -1) {
+//     renderQuizPage();
+//   } else {
+//     originalRenderQuizPage();
+//   }
+// }
+
 // Function to submit the answer and move to the next question
 function submitAnswer() {
   const selectedAnswer = document.querySelector('input[name="answer"]:checked');
@@ -840,5 +884,30 @@ function submitAnswer() {
   }
 }
 
+// Override submitAnswer to handle the agent select page
+const originalSubmitAnswer = submitAnswer;
+submitAnswer = function () {
+  if (currentAgent === -1) {
+    alert("Please select an agent to proceed further!");
+  } else {
+    originalSubmitAnswer();
+  }
+}
+
+// Function to go back 
+// function goBack() {
+//   currentPage--;
+//   renderQuizPage();
+// }
+
+// Override the go back function
+// const originalGoBack = goBack();
+// goBack = function () {
+//   if (currentAgent === -1) {
+//     // Do nothing
+//   } else {
+//     originalGoBack();
+//   }
+// }
 // Initial Render
 renderQuizPage();
