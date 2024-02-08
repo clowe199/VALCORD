@@ -1,18 +1,114 @@
-/* Basic styling - you can expand this */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+.video-background {
+  position: fixed; /* Fixed position to cover the whole page */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Viewport width */
+  height: 100vh; /* Viewport height */
+  overflow: hidden; /* Hide the overflow to maintain aspect ratio */
+  z-index: -1; /* Ensure it's in the background */
 }
 
-.quiz {
-    margin: 20px;
+#agentSelection {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(
+    243,
+    243,
+    243,
+    0
+  ); /* Set the alpha channel to make it transparent */
+  overflow-x: auto; /* Allows horizontal scrolling */
 }
 
-.question {
-    margin-bottom: 10px;
+.agent-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    12,
+    1fr
+  ); /* Creates 12 columns, adjust number as needed for your design */
+  gap: 15px; /* Add spacing between agent images */
+  justify-content: center;
+  max-width: 80%; /* Adjust based on your layout */
+  margin: auto;
 }
 
-.disabled, button[disabled] {
-    opacity: 0.5;
-    cursor: not-allowed;
+.agent-img-container {
+  width: 80px; /* Fixed width for the container */
+  height: 80px; /* Fixed height to match width, creating a square */
+  border: 2px solid #ffffff; /* Border for the container */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agent-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border: 3px solid #111111; /* Border around each photo */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.agent-img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.agent-overlay {
+  display: none; /* Initially hidden */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Behind the container but above the video background */
+}
+
+.overlay-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Spacing between buttons */
+}
+.agent-image {
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Create a circular shape for the image */
+}
+
+.lock-in-btn,
+.overlay-btn {
+  height: 4%;
+  display: block;
+  margin: 10px; /* Adjust the margin as needed for spacing */
+  padding: 10px 20px; /* Adjust the padding for button size */
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #ffffff; /* Text color */
+  background-color: #3498db; /* Button background color */
+  border: none;
+  border-radius: 5px; /* Rounded corners for the buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+
+  /* Additional styles for better appearance */
+  text-decoration: none;
+}
+
+.lock-in-btn:hover,
+.overlay-btn:hover {
+  background-color: #2980b9; /* Change background color on hover */
+}
+
+.container {
+  position: relative;
+  z-index: 2; /* Ensures that .container is above the .agent-overlay */
+}
+
+.video-background video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensures video is behind everything else */
 }
